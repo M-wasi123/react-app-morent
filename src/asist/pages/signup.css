@@ -1,0 +1,217 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to left bottom, #629bf0, #c069e9);
+}
+
+.parrent-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 97px 30px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    padding: 20px 80px;
+    background: linear-gradient(to right top, #aec8f0, #efdcf8);
+    border-radius: 10px;
+}
+.heading1{
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid rgb(196, 192, 192);
+    padding: 10px 10px;
+    font-family: 'Courier New', Courier, monospace, 'Arial Narrow', Arial, sans-serif;
+}
+.signup-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.personDetail{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+padding: 10px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+border-bottom: 2px solid rgb(196, 192, 192);
+}
+
+.email-box{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.envelope{
+    padding: 10px;
+    background-color: rgb(42, 120, 223);
+    border-top-left-radius:5px ;
+    border-bottom-left-radius:5px ;
+}
+#email{
+    width: 100%;
+    border: none;
+    padding: 12px 10px;
+    outline: none;
+    border-top-right-radius:5px ;
+    border-bottom-right-radius:5px ;
+}
+.user{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.user-name{
+    padding: 7px 10.5px;
+    background-color: rgb(42, 120, 223);
+    border-top-left-radius:5px ;
+    border-bottom-left-radius:5px ;
+}
+#user{
+    width: 100%;
+    border: none;
+    padding: 12px 10px;
+    outline: none;
+    border-top-right-radius:5px ;
+    border-bottom-right-radius:5px ;
+}
+.password-box{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: white;
+    padding-right: 4px;
+}
+.lock{
+    padding: 7px 11.5px;
+    background-color: rgb(42, 120, 223);
+    border-top-left-radius:5px ;
+    border-bottom-left-radius:5px ;
+}
+#password{
+    width: 100%;
+    border: none;
+    padding: 12px 10px;
+    outline: none;
+    border-top-right-radius:5px ;
+    border-bottom-right-radius:5px ;
+}
+#eye{
+    display: none;
+}
+
+#eyeSlash{
+    display: none;
+}
+#passwordStrength{
+    margin-top: 10px;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.male-femal{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 2px solid rgb(196, 192, 192);
+    border-top: 2px solid rgb(196, 192, 192);
+    padding: 10px 2px;
+}
+.pera{
+    padding: 10px 1px;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+#submit{
+    margin-top: 0px;
+    padding: 5px 30px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: rgb(42, 120, 223);
+    color: white;
+    font-size: medium;
+    font-weight: 300;
+    border-radius: 20px;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#submit:hover{
+    text-decoration: underline;
+    color: blue;
+    }
+.pera1{
+    padding: 20px 1px;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#signp{
+    font-size: 15px;
+    text-decoration: none;
+}
+#signp:hover{
+text-decoration: underline;
+color: blue;
+}
+@media only screen and (max-width:887px) {
+.container{
+    width: 60%;
+}
+}
+@media only screen and (max-width:690px) {
+    .container{
+        width: 70%;
+        padding: 20px 50px;
+    }
+    }
+    @media only screen and (max-width:610px) {
+    
+        .parrent-container{
+            padding: 80px 10px;
+        }
+        .container{
+            width: 80%;
+        }
+        .heading1{
+            font-size: x-large;}
+        }
+        @media only screen and (max-width:520px) {
+    
+            .parrent-container{
+                padding: 70px 10px;
+            }
+            .container{
+                width: 90%;
+            }
+
+        }
+    @media only screen and (max-width:460px) {
+    
+        .parrent-container{
+            padding: 40px 10px;
+        }
+        .container{
+            width: 100%;
+            padding: 20px 30px;
+        }
+        }

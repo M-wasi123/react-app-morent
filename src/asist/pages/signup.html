@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MORENT RENTAL CAR</title>
+    <link rel="stylesheet" href="signup.css">
+    <script src="https://kit.fontawesome.com/307cafd945.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="parrent-container">
+        <div class="container">
+<h1 class="heading1">REGISTRATION</h1>
+<div class="signup-form">
+    <form action="./signin.html">
+<div class="personDetail">
+    <div class="perosnal">
+        <input type="radio" name="chec" id="perso" required>
+        <label for="#perso">Personal</label>
+    </div>
+    <div class="company">
+        <input type="radio" name="chec" id="comp" required>
+        <label for="#comp">Company</label>
+    </div>
+</div>
+        <div class="email-box">
+            <span class="envelope"><i class="fa fa-envelope" style="font-size: large;color: white;"></i></span>
+            <input type="email" name="" id="email" placeholder="Email" required>
+        </div>
+        <div class="user">
+            <span class="user-name"><i class="fa fa-user" style="font-size: x-large;color: white;"></i></span>
+            <input type="text" name="" id="user" placeholder="Name" required>
+        </div>
+        <div class="password-box">
+            <span class="lock"><i class="fa fa-lock" style="font-size: x-large;color: white;"></i></span>
+            <input type="password" id="password" maxlength="8" placeholder="Password" required>
+            <i onclick="TogglePasswordShow()" id="eye" class="fa fa-eye"></i>
+            <i onclick="TogglePasswordShow2()" id="eyeSlash" class="far fa-eye-slash"></i>
+        </div>
+        <p id="passwordStrength"></p>
+
+<div class="male-femal">
+    <div class="male">
+        <input type="radio" name="radio" id="male" required>
+        <label for="male">Male</label>
+    </div>
+    <div class="female">
+        <input type="radio" name="radio" id="female" required>
+        <label for="female">Female</label>
+    </div>
+</div>
+<p class="pera">By clicking Register, your agree on our <a href="#">Privacy policy for morent rental</a></p>
+<input id="submit" type="submit" value="Submit">
+<!-- <span id="submit" type="submit">
+<a id="submit" href="./signin.html" >Submit</a>
+</span> -->
+</form>
+</div>
+<p class="pera1">Already have an account: <a id="signp" href="./signin.html">Sign In</a></a></p>
+        </div>
+    </div>
+    <script src="signup.js"></script>
+</body>
+</html>

@@ -1,0 +1,387 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box; 
+}
+body{
+    overflow-x: hidden;
+}
+:root {
+    --light-color:#f0f2f5ea;
+    --dark-color:#3D81db;
+    --text-color:#a9aaac;
+    --blue-color:#2A60B7;
+    --daark-color:#4991ee;
+}
+
+.main-container{
+    background-color:var(--light-color);
+    padding: 20px 20px;
+    width: 100%;
+}
+.payment-form{
+    width: 100%;
+}
+.child-container{
+    width: 100%;
+
+}
+.billing{
+    border-radius: 5px;
+    background-color: white;
+    width: 100%;
+    padding: 15px 10px;
+}
+.h-5{
+    font-size:20px;
+letter-spacing: -1px;
+}
+.p-1{
+    font-size:medium;
+    color: var(--text-color);
+}
+.p-2{
+    text-align: right;
+    font-size: small;
+    color: var(--text-color);
+    /* margin-top: -35px; */
+}
+.address-city{
+    /* display: flex;
+    justify-content: space-between; */
+    width: 100%;
+}
+.width{
+    width: 100%;
+}
+.name-1{
+    display: flex;
+    justify-content: space-between;
+   column-gap: 10px;
+    width: 100%;
+    padding-top: 30px;
+}
+.phone-number{
+    display: flex;
+    justify-content: space-between;
+   column-gap: 10px;
+    width: 100%;
+    padding-top: 30px;
+}
+h6{
+    font-size: small;
+}
+.width{
+    display: flex;
+    flex-direction: column;
+            row-gap: 5px;
+}
+.input{
+width: 100%; 
+/* height: 35px; */
+border-radius: 5px;
+border: none;
+outline: none;
+padding: 10px 10px;
+font-size:medium;
+background-color: var(--light-color);
+color: var(--text-color);
+font-size: small;
+}
+.name1{
+    display: flex;
+    justify-content: space-between;
+   column-gap: 10px;
+    width: 100%;
+    padding-top: 30px;
+}
+.phonumber{
+    display: flex;
+    justify-content: space-between;
+   column-gap: 10px;
+    width: 100%;
+    padding-top: 30px;
+}
+.rental-info{
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 20px;
+    width:100%;
+    padding: 15px;
+}
+.piku{
+    margin-top: 30px;
+    }
+.pick-up{
+    font-size: medium;
+    letter-spacing: -0.5px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+.phonenumber{
+    width: 100%;
+}
+.name-2{
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-between ;
+    width: 100%;
+    gap: 20px;
+}
+.h-6{
+    margin-top: -30px;
+}
+
+.pickup{
+    font-size: medium;
+    letter-spacing: -0.5px;
+    font-weight: 500;
+}
+.sele{
+    border: none;
+    outline: none;
+    background-color: var(--light-color);
+    border-radius: 5px;
+    color: var(--text-color);
+    width: 100%;
+    font-size:small;
+    padding: 10px 10px;
+    margin: 10px 0px;
+}
+.Locations{
+    width: 100%;
+}
+.p-1-2{
+    color: black;
+    font-size: medium;
+}
+.radio-1{
+    margin-top: 30px;
+}
+.payment-method{
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 20px;
+    width: 100%;
+    padding: 15px;
+}
+.card-detail{
+    margin-top: 20px;
+    padding: 15px 20px;
+    background-color: var(--light-color);
+    width: 100%;
+    border-radius: 5px;
+}
+.Card-1{
+    font-size: large;
+    font-weight: 600;
+}
+.visa{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.rad-cla{
+    width: 100%;
+}
+.visa-{
+    display: flex;
+    justify-content: end;
+}
+.visa-img{
+    width: 50%;
+    background-color: var(--light-color);
+    border-radius: 10px;
+}
+.address-city-1{
+    margin-top: 20px;
+    /* display: flex;
+    justify-content: space-between; */
+    width: 100%;
+    gap: 20px;
+}
+.input-1{
+    width: 100%; 
+    /* height: 35px; */
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 10px 10px;
+    font-size: small;
+    background-color: white;
+    color: var(--text-color);
+    }
+.account{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    background-color: var(--light-color);
+    align-items: center;
+    width:100%;
+    margin-top: 20px;
+    padding: 15px 20px;
+} 
+.pay{
+    width: 100%;
+}  
+.PayPal{
+font-size: medium;
+font-weight: 600;
+} 
+.pay-pal{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.account-1{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    background-color: var(--light-color);
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    padding: 3px 20px;
+} 
+.Bitcoin{
+    font-size: medium;
+    font-weight: 600;
+}
+.bit-coin{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+.confirmation{
+    
+        border-radius: 5px;
+        background-color: white;
+        margin-top: 20px;
+        width:100%;
+        padding: 15px;
+   
+}
+.h-p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+}
+.h-3{
+font-weight: 600;
+}
+.read{
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 20px;
+    background-color: var(--light-color);
+}
+
+.privacy{
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px 20px;
+    gap: 20px;
+    background-color: var(--light-color);
+}
+.red-pri{
+    margin-top: 20px;
+}
+.rent{
+    margin-top: 30px;
+    width: 20%;
+    /* height: 50px; */
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px ;
+    background-color: var(--daark-color);
+    color: white;
+}
+.now{
+    color: white;
+    text-decoration: none;
+    font-weight: 550;
+    font-size: 120%;
+}
+.h-4{
+    margin-top: 20px;
+    font-size: medium;
+    font-weight: 700;
+}
+.p-4{
+   margin-top: 10px;
+    font-size: small;
+    color: var(--text-color);
+}
+@media only screen and (max-width:496px) {
+
+.name-1{
+    flex-direction: column;
+    row-gap: 20px;
+}
+.phone-number{
+    margin-top: -10px ;
+    flex-direction: column;
+    row-gap: 20px;
+}
+h6{
+    font-weight: 400;
+}
+
+.p-1{
+    font-size: x-small;
+}
+.input{
+    font-size: x-small;
+}
+.sele{
+    margin-top: 5px;
+    font-size: x-small;
+    padding: 5px;
+}
+.visa-img{
+    width: 80%;
+    height: 20px;
+}
+.name1{
+    flex-direction: column;
+   row-gap: 20px;
+}
+.phonumber{
+    flex-direction: column;
+   row-gap: 20px;
+   padding-top: 20px;
+}
+.pay-pal{
+    width: 70%;
+}
+.bit-coin{
+    width: 70%;
+}
+.read{
+padding: 10px 5px;
+}
+.privacy{
+    padding: 10px 5px;
+}
+.Bitoin{
+    font-size: x-small;
+}
+.now{
+    font-size: x-small;
+}
+.p-4{
+    margin: 10px 0px;
+}
+}
